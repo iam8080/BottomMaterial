@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_margin="20dp"
+
+    android:layout_height="230dp"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:id="@+id/rr1"
+        android:background="#ea2"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mumbai"
+            android:textColor="#fff"
+            android:textSize="50sp"
+            android:id="@+id/text"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="50dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text"
+            android:text="45"
+            android:textSize="45dp"
+            android:layout_marginTop="24dp"
+            android:textColor="#eed"
+            android:id="@+id/temp"
+            android:layout_marginLeft="35dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_alignParentRight="@id/temp"
+            android:layout_below="@id/text"
+            android:textSize="20dp"
+            android:layout_marginLeft="88dp"
+           android:layout_marginTop="25dp"
+            android:textColor="#eed"
+            android:layout_height="wrap_content"
+            android:text="O"/>
+
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+         android:layout_marginTop="20dp"
+        android:layout_marginLeft="80dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:id="@+id/img"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="60dp"
+            android:layout_height="wrap_content"
+           android:src="@drawable/ic_baseline_cloud_24"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3:30 AM"
+            android:textSize="35dp"
+            android:textColor="#eed"
+            android:layout_marginTop="130dp"
+            android:layout_marginLeft="-130dp"
+            />
+
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
+</RelativeLayout>
+<!--</RelativeLayout>-->
+<!--<ImageView-->
+<!--android:layout_width="wrap_content"-->
+<!--android:layout_height="wrap_content"-->
+<!--android:src="@drawable/ic_baseline_cloud_24"-->
+<!--    />-->
